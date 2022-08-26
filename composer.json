@@ -1,0 +1,22 @@
+{
+    "name": "skull/dds-3-11",
+    "description": "Meu primeiro projeto PHP usando o Composer",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "scripts":{
+        "start":"php -S 0.0.0.0:8000 -t src/public"
+    },
+    "authors": [
+        {
+            "name": "Diego Rodrigues",
+            "email": "diego.executive@gmail.com"
+        }
+    ],
+    "require": {
+        "components/bootstrap": "^4.6"
+    }
+}
